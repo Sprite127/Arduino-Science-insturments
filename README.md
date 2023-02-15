@@ -1,1 +1,11 @@
-# arduino-ultrasonic-distance-gun
+# Arduino Science insterements  
+### Ultrasonic speed/distance scanner (1.2.2)
+Parts
+1. 4 digit 7 segment display
+2. arduino uno
+3. 9V battery
+4. 3dprinted housing
+5. pushbutton
+
+
+
