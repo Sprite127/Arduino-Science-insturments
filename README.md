@@ -1,4 +1,7 @@
 # Arduino Science insterements  
+## Background
+All of the following projects are designed to be swapable. this means that you only need 1 Arduino to support each project.
+
 ## Ultrasonic speed/distance scanner (1.2.1)
 ### Parts
 
