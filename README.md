@@ -12,7 +12,7 @@
 * 7 segment Display
 * Moduler (swappable arduino)
 
-## Ultrasonic speed/distance scanner (2.1.1)
+## Ultrasonic speed/distance scanner (2.0.0)
 ### Parts
 
 1. 16x2 LCD display
