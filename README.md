@@ -1,5 +1,5 @@
 # Arduino Science insterements  
-## Ultrasonic speed/distance scanner (1.2.2)
+## Ultrasonic speed/distance scanner (1.2.1)
 ### Parts
 
 1. 4 digit 7 segment display 
