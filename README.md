@@ -13,7 +13,7 @@
 * Moduler (swappable arduino)
 
 ## Ultrasonic speed/distance scanner (2.1.1)
-### Part
+### Parts
 
 1. 16x2 LCD display
 2. arduino uno
