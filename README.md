@@ -8,6 +8,10 @@
 4. 3dprinted housing
 5. pushbutton
 
+### Features
+* 7 segment Display
+* Moduler (swappable arduino)
+
 ## Ultrasonic speed/distance scanner (2.1.1)
 ### Part
 
@@ -16,3 +20,7 @@
 3. 9V battery
 4. 3dprinted housing
 5. pushbutton
+
+### Features
+* LCD Display
+* Moduler (swappable arduino)
