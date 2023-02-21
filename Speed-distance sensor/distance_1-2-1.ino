@@ -5,10 +5,6 @@ const int trigPin = A1;
 const int echoPin = A0;
 
 // defines variables
-long duration;
-int distance1=0;
-int distance2=0;
-double Speed=0;
 int distance=0;
 
 
@@ -55,35 +51,7 @@ return distance;
 
 }
 
-float speeed(){
-  //calculating Speed
-   distance1 = ultrasonicRead(); //calls ultrasoninicRead() function below
-   
-   delay(1000);//giving a time gap of 1 sec
-   
-   distance2 = ultrasonicRead(); //calls ultrasoninicRead() function below
-   
-   //formula change in distance divided by change in time
-   Speed = (distance2 - distance1)/1.0; //as the time gap is 1 sec we divide it by 1.
-
-
-   // Code is fun //
-
-  };
-
-void loop()
-{
-speeed();
-
-//Displaying Speed
-  Serial.print("Speed in cm/s  :");
-  Serial.println(Speed);
-
-  for (;;) {
-  sevseg.setNumber(Speed); // Displays '3.141'\
-  sevseg.refreshDisplay();
-}
-  
- 
-
+void loop() {
+ultrasonicRead ();
+sevSeg.print(distance)
 }
