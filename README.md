@@ -5,7 +5,7 @@
 1. 4 digit 7 segment display 
 2. arduino uno
 3. 9V battery
-4. 3dprinted housing
+4. 3d printed housing
 5. pushbutton
 
 ### Features
@@ -18,7 +18,7 @@
 1. 16x2 LCD display
 2. arduino uno
 3. 9V battery
-4. 3dprinted housing
+4. 3d printed housing
 5. pushbutton
 
 ### Features
