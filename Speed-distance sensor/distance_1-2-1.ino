@@ -1,10 +1,11 @@
 #include "SevSeg.h"
 SevSeg sevseg; //Instantiate a seven segment object
 // defines pins numbers
-const int trigPin = A1;
-const int echoPin = A0;
+const int trigPin = 9;
+const int echoPin = 10;
 
 // defines variables
+long duration;
 int distance=0;
 
 
@@ -35,14 +36,14 @@ delayMicroseconds(2);
 
 // Sets the trigPin on HIGH state for 10 micro seconds
 digitalWrite(trigPin, HIGH);
-delayMicroseconds(10);
+delayMicroseconds(2);
 digitalWrite(trigPin, LOW);
 
 // Reads the echoPin, returns the sound wave travel time in microseconds
 duration = pulseIn(echoPin, HIGH);
 
 //calculating distance
-distance= duration*0.034/2;
+distance= duration*0.034/2.54;
 
 // Prints the distance on the Serial Monitor
 Serial.print("Distance in cm : ");
@@ -51,7 +52,7 @@ return distance;
 
 }
 
-void loop() {
-ultrasonicRead ();
-sevSeg.print(distance)
+void loop() 
+{
+ultrasonicRead();
 }
