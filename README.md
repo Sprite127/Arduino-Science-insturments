@@ -29,11 +29,20 @@
 3. 9V battery
 4. 3d printed housing
 5. pushbutton
+6. Protoboard Sheild
 
 ### Features
 * LCD Display
 * Moduler (swappable arduino)
 
+### LCD 16x2 Display
+*
+
+### HC-SR04 (Ultrasonic Sensor)
+* Vcc - 5v
+* Trig - A1
+* Echo - A2
+* Gnd - Gnd
 
 
 #### Notes
