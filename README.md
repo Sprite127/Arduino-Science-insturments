@@ -6,6 +6,7 @@
 3. 9V battery
 4. 3d printed housing
 5. pushbutton
+6. Protoboard Sheild
 
 ### Features
 * 7 segment Display
