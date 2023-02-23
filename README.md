@@ -29,4 +29,4 @@
 
 
 #### Notes
-All of the following projects are designed to be swapable. this means that you only need 1 Arduino to support each project.
+All of the following projects are designed to be swapable. This means that you only need 1 Arduino to support each project.
