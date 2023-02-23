@@ -11,8 +11,15 @@
 * 7 segment Display
 * Moduler (swappable arduino)
 
-### Ultrasonic Sensor Pinnout
-*
+### 4 Digit 7 Segment Display
+* 10,11,12,13 - Digit pins
+* A-2,B-3,C-4,D-5,E-6,F-7,G-8,H-9 - Number pins
+
+### HC-SR04 (Ultrasonic Sensor)
+* Vcc - 5v
+* Trig - A1
+* Echo - A2
+* Gnd - Gnd
 
 ## Ultrasonic speed/distance scanner (2.0.0)
 ### Parts
