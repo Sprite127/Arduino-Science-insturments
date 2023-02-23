@@ -1,8 +1,8 @@
 #include "SevSeg.h"
 SevSeg sevseg; //Instantiate a seven segment object
 // defines pins numbers
-const int trigPin = A1;
-const int echoPin = A0;
+const int trigPin = 9;
+const int echoPin = 10;
 
 // defines variables
 long duration;
@@ -52,11 +52,12 @@ distance= duration*0.034/2;
 Serial.print("Distance in cm : ");
 Serial.println(distance);
 return distance;
-
 }
 
-float speeed(){
-  //calculating Speed
+float speed ()
+{
+
+//calculating Speed
    distance1 = ultrasonicRead(); //calls ultrasoninicRead() function below
    
    delay(1000);//giving a time gap of 1 sec
@@ -65,25 +66,15 @@ float speeed(){
    
    //formula change in distance divided by change in time
    Speed = (distance2 - distance1)/1.0; //as the time gap is 1 sec we divide it by 1.
-
-
-   // Code is fun //
-
-  };
-
-void loop()
-{
-speeed();
-
+   
 //Displaying Speed
-  Serial.print("Speed in cm/s  :");
+  Serial.print("Speed in cm/s  :"); 
   Serial.println(Speed);
-
-  for (;;) {
-  sevseg.setNumber(Speed); // Displays '3.141'\
+  sevseg.setNumber(Speed); // Displays '3.141'
   sevseg.refreshDisplay();
 }
-  
- 
 
+void loop() 
+{
+speed();
 }
