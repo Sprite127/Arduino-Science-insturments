@@ -11,8 +11,6 @@ int distance2=0;
 double Speed=0;
 int distance=0;
 
-
-
 void setup() {
   byte numDigits = 4;
   byte digitPins[] = {10, 11, 12, 13};
