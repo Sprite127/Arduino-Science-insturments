@@ -66,15 +66,20 @@ float speed ()
    
    //formula change in distance divided by change in time
    Speed = (distance2 - distance1)/1.0; //as the time gap is 1 sec we divide it by 1.
-   
+}
+
+float printSeg () 
+{
 //Displaying Speed
-  Serial.print("Speed in cm/s  :"); 
-  Serial.println(Speed);
-  sevseg.setNumber(Speed); // Displays '3.141'
-  sevseg.refreshDisplay();
+Serial.print("Speed in cm/s  :"); 
+Serial.println(Speed);
+sevseg.setNumber(Speed);
+sevseg.refreshDisplay();
 }
 
 void loop() 
 {
 speed();
+printSeg();
 }
+
