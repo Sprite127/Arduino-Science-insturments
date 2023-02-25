@@ -49,10 +49,16 @@ distance= duration*0.034/2.54;
 Serial.print("Distance in cm : ");
 Serial.println(distance);
 return distance;
+}
 
+float printSeg () 
+{
+sevseg.setNumber(distance);
+sevseg.refreshDisplay();
 }
 
 void loop() 
 {
 ultrasonicRead();
+printSeg();
 }
