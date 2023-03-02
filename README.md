@@ -25,7 +25,7 @@
 ## Ultrasonic speed/distance scanner (2.0.0)
 ### Parts
 1. 16x2 LCD display
-2. arduino uno
+2. arduino nano
 3. 9V battery
 4. 3d printed housing
 5. pushbutton
@@ -44,6 +44,28 @@
 * Echo - A2
 * Gnd - Gnd
 
+## Spectrophotometer (1.0.0)
+### Parts
+1. 16x2 LCD display
+2. arduino nano
+3. 9V battery
+4. 3d printed housing
+5. pushbutton
+6. Protoboard Sheild
+7. 50V capacitor
+8. Photoresistor
+9. potentiometer
+
+### Features
+* 16x2 LCD
+* Color change
+* Moduler (swappable arduino)
+
+### LCD 16x2 Display
+*
+
+### Photoresistor
+* 
 
 #### Notes
 All of the following projects are designed to be swapable. This means that you only need 1 Arduino to support each project.
