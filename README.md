@@ -62,10 +62,10 @@
 * Moduler (swappable arduino)
 
 ### LCD 16x2 Display
-*
+(Comming Soon)
 
 ### Photoresistor
-* 
+(Comming Soon)
 
 #### Notes
 All of the following projects are designed to be swapable. This means that you only need 1 Arduino to support each project.
